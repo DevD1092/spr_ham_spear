@@ -47,7 +47,7 @@ for i=1: no_stars
     a = [];    
     
     C= Convert_Axis_2_AttitudeMatrix(RA,DEC,angle);
-    [R_camera_to_earth,star_matrix]= Find_neighbor_star_half_FOV(C,FOV, img_height, img_width, pixelsize);
+    [R_camera_to_earth,star_matrix]= Find_neighbor_star_FOV(C,FOV, img_height, img_width, pixelsize);
     
     
     for j = 1 : size(star_matrix,1)
