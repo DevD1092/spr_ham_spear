@@ -1,6 +1,5 @@
 % This script is to test the proposed star identification algorithm
 
-
 clear all;
 
 clc;
