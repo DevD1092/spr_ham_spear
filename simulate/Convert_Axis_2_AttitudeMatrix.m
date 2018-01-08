@@ -17,4 +17,4 @@ c1= [c1x c1y c1z];
 c2= cross(c3,c1);
 
 %Conversion matrix
-C= [c1;c2;c3];
+C=[c1;c2;c3];
