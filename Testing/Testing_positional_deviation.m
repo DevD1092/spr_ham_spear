@@ -462,7 +462,7 @@ for ii = 1:size(RA,1)
             
             end            
         end
-           if(count_acc == 1000)
+           if(count_acc == 162000)
             return;
         end
         pause(0.2);
