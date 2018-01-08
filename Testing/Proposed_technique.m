@@ -274,7 +274,7 @@ for ii = 1:size(RA,1)
                     dist_list = [];
                     dist_list_sorted = [];
                     dist_list_sorted_final = [];
-                    Image_vector_FFT = [];
+                    Image_vector = [];
                     
                     for i=1: length(centroid_newer)
                         
@@ -384,7 +384,7 @@ for ii = 1:size(RA,1)
                         end
                     end
                     
-                    % Comparing with the FFT_36_binsize_point
+                    % Matching
                     
                     for ll = 1 : bin_size
                         count = 0;
@@ -405,7 +405,6 @@ for ii = 1:size(RA,1)
                     aa = Image_vector;
                     std_im = std(aa,1);
                     cc = [ zeros(1,length(aa)-1) aa];
-                    ee = fft(cc);
             
              SPD = dlmread('spr_ham_spear/SPD/SPD.txt');
             
