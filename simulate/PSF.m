@@ -1,5 +1,7 @@
+%This script is for generating the point spread function of the stars in the simulated images.
 
-function PSF_im = PSF_mine(magnitude, settings)
+
+function PSF_im = PSF(magnitude, settings)
 
 if (settings==0)
     PSF_im=ones(1,1);
@@ -45,14 +47,6 @@ elseif (settings==2)
         centre=3;
         sigma=sqrt(4);
     end
-    
-    %% Settings3:
-    % Best set of seetings, do not change the size of the images, stars
-    % brightness is not defined by PSF image size.
-    % Defined by FWHM-sigma and Intensity-A. Read PSF pdfs (University of
-    % Oklahoma, Austrian Paper)
-    % More investigation needed to determine the equation to describe PSF and
-    % Magnitudes and exposure times.
 elseif (settings==3)
     centre=10;
     if magnitude <= 1
