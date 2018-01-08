@@ -29,7 +29,7 @@ for i=1: no_stars
 end
 
 % LUT stored
-LUT_vector_FFT = [];
+LUT_vector = [];
 
 for i=1: no_stars
     
@@ -196,5 +196,5 @@ for i=1: no_stars
         a = round(a / 51.2);   % Converting into a number of bit pattern each bin size in the radial distance is equal to (51.2 pixels - 10 bins) ; (64 pixels - 8 bins)
         
         
-        LUT_vector_FFT = [LUT_vector_FFT ; a];  
+        LUT_vector = [LUT_vector ; a];  
 end
