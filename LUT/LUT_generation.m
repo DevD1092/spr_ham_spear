@@ -10,10 +10,10 @@ pixelsize= 13.3/1024;
 FOV =15;
 angle = 45;
 test = 0;
-bin_size = 8;
+bin_size = 32;
 % Max_N = 15;
 
-file_path='F:\Amine-CMOS-Imager\Literature Review\P_Star_Tracker\Implementation\DFT\Hamming distance\SKY2000_Magnitude6_doublestars_0.12.txt';
+file_path='spr_ham_spear/simulate/SKY2000_Magnitude6_doublestars_0.12.txt';
 [SKYMAP_No,star_RA,star_DEC,star_MAG]= textread(file_path,'%d %f %f %f');
 
 % Si is coordiante of star in Earth reference frame,
