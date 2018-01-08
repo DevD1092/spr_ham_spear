@@ -2,7 +2,7 @@
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 
-function [ R_camera_to_earth, star_matrix]= Find_neighbor_star_half_FOV(C,FOV, img_height, img_width, pixel_size)
+function [ R_camera_to_earth, star_matrix]= Find_neighbor_star_FOV(C,FOV, img_height, img_width, pixel_size)
 
 f= (img_height)*pixel_size /2 / tand(FOV/2);  % Change this too if you are changing the FOV size ahead.
 
