@@ -467,6 +467,4 @@ for ii = 1:size(RA,1)
         end
         pause(0.2);
     end
-end
-
-           
+end         
