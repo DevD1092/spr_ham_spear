@@ -23,7 +23,7 @@ Citation of the paper "A hamming distance and spearman-correlation based star id
 This repository contains four folders. The information about each of the folder is described as below.
 
 #### 1. simulate - Codes for simulating the star images
-  Convert_Axis_2_AttitudeMatrix.m -- For converting the ECI (Star position in the catalog) frame to the camera frame (Star sesnsor).<br />
+&nbsp;&nbsp;&nbsp;&nbsp Convert_Axis_2_AttitudeMatrix.m -- For converting the ECI (Star position in the catalog) frame to the camera frame (Star sesnsor).<br />
   Find_neighbor_star_FOV.m -- For finding the number and position of the neighboring stars in a specified FOV from the center star.<br />
   PSF.m -- Point Spread Function simulation of the star amongst the pixels.<br />
   Plot_sky_images.m -- For simulating the star images at a specific RA & DEC angle along with a defined FOV (this function is used by the Testing technique eventually).<br />
