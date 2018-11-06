@@ -18,11 +18,11 @@ Citation of the paper "A hamming distance and spearman-correlation based star id
   publisher={IEEE}<br />
 }<br />
 
-# Repository details
+## Repository details
 
 This repository contains four folders. The information about each of the folder is described as below.
 
-# 1. simulate - Codes for simulating the star images
+#### 1. simulate - Codes for simulating the star images
   Convert_Axis_2_AttitudeMatrix.m -- For converting the ECI (Star position in the catalog) frame to the camera frame (Star sesnsor).<br />
   Find_neighbor_star_FOV.m -- For finding the number and position of the neighboring stars in a specified FOV from the center star.<br />
   PSF.m -- Point Spread Function simulation of the star amongst the pixels.<br />
@@ -30,4 +30,4 @@ This repository contains four folders. The information about each of the folder 
   centroider.m -- Finding the centroid of the stars in the image.<br />
   SKY2000_Magnitude6_doublestars_0.12.txt -- Star catalog (adopted from SAO) containing the star ID and it's corresponding RA, DEC and Mv information. Stars having a relative magnitude threshold (Mv) of less than 6.0 are selected for making this catalog.<br />
   
-## 2. Testing - Testing as well as implementation code of the proposed star identification algorithm
+#### 2. Testing - Testing as well as implementation code of the proposed star identification algorithm
