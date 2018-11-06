@@ -1,7 +1,9 @@
 # spr_ham_spear
 As researchers, we firmly believe in the concept of reproducible research.
 
-Thus, we release the codes of simulation, algorithm development, and testing online on GitHub for the research paper "A hamming distance and spearman-correlation based star identification algorithm" (https://ieeexplore.ieee.org/abstract/document/8374923). This repository contains the codes for simulation and testing of the star identification algorithm based on hamming distance and spearman-correlation.
+Thus, we release the codes of simulation, algorithm development, and testing online on GitHub for the research paper "A hamming distance and spearman-correlation based star identification algorithm" (https://ieeexplore.ieee.org/abstract/document/8374923).
+
+This repository contains the codes for simulation and testing of the star identification algorithm based on hamming distance and spearman-correlation.
 
 Please cite our paper (citation details below) properly, if you use the code for simulation, development or testing of a new star identification algorithm or comparison & benchmarking with the above-mentioned alogirhtm.
 
