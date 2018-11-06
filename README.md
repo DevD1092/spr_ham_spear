@@ -10,7 +10,7 @@ Please cite our paper (citation details below) properly, if you use the code for
 This code is only for academic and research purposes. Commerical use of this code is not permitted.
 
 Citation of the paper "A hamming distance and spearman-correlation based star identification algorithm":
-@article{samirbhai2018hamming,
+@article{samirbhai2018hamming, <br />
   title={A hamming distance and spearman-correlation based star identification algorithm},
   author={Samirbhai, Mehta Deval and Chen, Shoushun and Low, Kay Soon},
   journal={IEEE Transactions on Aerospace and Electronic Systems},
