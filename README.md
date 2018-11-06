@@ -38,7 +38,7 @@ This repository contains four folders. The information about each of the folder 
 ###### NOTE: The testing and implementation scripts utilize the simulation scripts as well as the input from the LUT and the SPD directories. So, please change the path of this input accordingly.
 
 #### 3. SPD - Generating the SPD for the propsoed technique
-&nbsp;&nbsp;&nbsp;&nbsp;SPD_generate.m -- For generating the SPD for the propsoed technique. Specific parameters (such as the FOV, pixel size, Mv, bin_size, etc.) can be specified inside the script.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;SPD_generate.m -- For generating the SPD for the propsoed technique. Specific parameters (such as the FOV, pixel size, Mv, bin_size, etc.) can be changed inside the script.<br />
 &nbsp;&nbsp;&nbsp;&nbsp;SPD.txt -- SPD generated from the above script with a magnitude threshold (Mv) of 6.0. This SPD should be given as an input to the Testing scripts.<br />
  
 #### 4. LUT - Generating the LUT for the proposed technique
